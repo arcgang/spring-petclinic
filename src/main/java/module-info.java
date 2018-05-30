@@ -2,6 +2,7 @@ open module spring.petclinic {
     requires cache.api;
 
     requires java.activation;
+    requires java.instrument;
     requires java.persistence;
     requires java.sql;
     requires java.transaction;
