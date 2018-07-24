@@ -1,4 +1,4 @@
-FROM openjdk:10-jre-slim
+FROM openjdk:10.0.1-jre-slim
 
 ADD spring-petclinic-2.0.0.BUILD-SNAPSHOT.jar app.jar
 
