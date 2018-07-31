@@ -21,4 +21,6 @@ open module spring.petclinic {
     requires spring.tx;
     requires spring.web;
     requires spring.webmvc;
+
+    requires jdk.unsupported;
 }
